@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Du Lịch</title>
+	<link rel="stylesheet" href="assets/css/Home.css">
+	<link rel="stylesheet" href="assets/css/Header_Footer.css">
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/js/jquery-3.6.0.js"></script>
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v11.0" nonce="cnC0jxop"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script> 
+</head>
+<body>
+
+	<div id = "header">
+		<div id = "header_tren">
+			<div id = "header_tren_trai">
+				<div class="social">
+		  			<i class="fa fa-map-marker" aria-hidden="true"> &nbsp;</i>
+		  			<a href="#">Hà Nội</a>
+
+		  			<i class="fa fa-envelope-o" style="margin-left: 15pt;" aria-hidden="true"></i>
+		  			<a class="contact-a" href="mailto:tungtbptdev@gmail.com">tungtbptdev@gmail.com</a>
+
+		  			<i class="fa fa-phone" style="margin-left: 15pt;" aria-hidden="true"></i>
+		  			<a class="contact-a" href="tel:0975141928">0975141928 </a>
+		  		</div>  					
+			</div>
+			<div id = "header_tren_phai">
+				<button type="button" class="btn btn-outline-success">Đặt Tour</button>
+				<button type="button" class="btn btn-outline-success">Đăng nhập</button>
+			</div>
+			<br> <br> <br>
+
+
+			<div id = "header_menu">
+				<nav class="nav__pc">          
+                    <ul class="nav__list">
+                    	<li>
+                            <a href="index.html" class="nav__link">TRANG CHỦ</a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="nav__link">GIỚI THIỆU</a>
+                        </li>
+                        <li>
+                            <a href="tour_domestic.html" class="nav__link">TOUR NỘI ĐỊA</a>
+                        </li>
+                        <li>
+                            <a href="tour_foreign.html" class="nav__link">TOUR NƯỚC NGOÀI</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav__link">TIN TỨC</a>
+                        </li>
+                        <li>
+                            <a href="contacts.html" class="nav__link">LIÊN HỆ</a>
+                        </li>
+                        <li>
+                        	<a href="#" class="nav__link"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                        	<a href="cart.html" class="nav__link"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+                <label for="nav-mobile-input" class="nav__bars-btn">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </label>
+
+                <input type="checkbox" hidden name="" class="nav__input" id="nav-mobile-input">
+
+                <label for="nav-mobile-input" class="nav__overlay"> </label>
+
+                <nav class="nav__mobile">   
+                    <label for="nav-mobile-input" class="nav__mobile-close">
+                        <i class="fa fa-times" aria-hidden="true"></i> 
+                    </label>       
+                    <ul class="nav__mobile-list">
+                    	<li>
+                            <a href="index.html" class="nav__mobile-link">TRANG CHỦ</a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="nav__mobile-link">GIỚI THIỆU</a>
+                        </li>
+                        <li>
+                            <a href="tour_domestic.html" class="nav__mobile-link">TOUR NỘI ĐỊA</a>
+                        </li>
+                        <li>
+                            <a href="tour_foreign.html" class="nav__mobile-link">TOUR NƯỚC NGOÀI</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav__mobile-link">TIN TỨC</a>
+                        </li>
+                        <li>
+                            <a href="contacts.html" class="nav__mobile-link">LIÊN HỆ</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav__link"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="cart.html" class="nav__link"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+			</div>
+		</div>  <!-- End Header_tren -->
+	</div>   <!-- End Header --> 
+
+
+<!-- Content -->
+<div id = "content">				
+	<div id = "about">			
+		<center>
+			<div class="row">
+				<img src="image/slide/about.jpg">
+
+				<div class="col-md-4 col-sm-4 col-12">
+					<br><br><br>
+					<h3>MỤC TIÊU</h3>
+					<p> Nguyễn Việt Tùng   </p>
+					<p>	Đinh Tuấn Phong  </p>
+					<p>	Nguyễn Xuân Toàn </p>
+					
+				</div>
+				<div class="col-md-4 col-sm-4 col-12">
+					<br><br><br>
+					<h3>SỨ MỆNH</h3>
+					<p> Nguyễn Việt Tùng </p>
+					<p>	Đinh Tuấn Phong </p>
+					<p>	Nguyễn Xuân Toàn </p>
+				</div>
+				<div class="col-md-4 col-sm-4 col-12">
+					<br><br><br>
+					<h3>TƯƠNG LAI</h3>
+					<p>Nguyễn Việt Tùng </p>
+					<p>	Đinh Tuấn Phong </p>
+					<p>	Nguyễn Xuân Toàn </p>
+				</div>
+			</div>	
+		</center>			
+	</div>
+</div>
+<br><br><br>
+<!-- End Content -->
+
+
+
+<!-- Footer -->
+<div id = "footer">
+		<div class = "container"> 
+			<div class = "row">
+				<div class="col-md-3 col-sm-6 col-12">
+					<div class = 'footer_news'>
+						<h2 style="margin-bottom: 28pt;">VIVU</h2>
+						<p>Nâng tầm du lịch Việt cùng vươn xa châu lục. Đem đến những trải nghiệm thú vị nhất cho từng khách hàng.</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-12">
+					<div class = 'footer_news'>
+						<h5>LIÊN HỆ </h5>
+						<div>
+							<br>
+				  			<i class="fa fa-map-marker" style="margin: 8pt 10pt;" aria-hidden="true"> &nbsp;</i>
+				  			<a href="#">Hà Nội</a>
+
+				  			<br>
+				  			<i class="fa fa-envelope-o" style="margin: 8pt 10pt;" aria-hidden="true"></i>
+				  			<a class="contact-a" href="mailto:tungtbptdev@gmail.com">tungtbptdev@gmail.com</a>
+
+				  			<br>
+				  			<i class="fa fa-phone" style="margin: 8pt 10pt;" aria-hidden="true"></i>
+				  			<a class="contact-a" href="tel:0975141928">0975141928 </a>
+				  		</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-12">
+					<div class = 'footer_news'>
+						<h5 style="margin-bottom: 28pt;">THÔNG TIN</h5>
+						<a href="#">Cẩm nang du lịch</a><br>
+						<a href="#">Tạp chí du lịch</a><br>
+						<a href="#">Kinh nghiệm du lịch</a><br>
+						<a href="#">Tin tức</a><br>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-12">
+					<div class = 'footer_news'>
+						<h5 style="margin-bottom: 28pt;">ĐỂ LẠI LỜI NHẮN</h5>
+						<form>
+							<tr>
+								<td><input type="email" name="email" style="width: 250pt; height:20pt;" placeholder="Email..."></td>
+							</tr>
+							<tr>
+								<textarea name="description" style="width: 250pt; height: 80pt" placeholder="Lời nhắn...">
+									
+								</textarea>
+							</tr>
+							<br>
+							<tr>
+								<td><button type="button" class="btn btn-success">Gửi</button></td>
+							</tr>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div> 
+</div>
+<!-- End Footer -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+</body>
+</html>
